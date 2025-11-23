@@ -1,4 +1,4 @@
-
+![MC Inside Warehouse](https://raw.githubusercontent.com/Filmmaker-40/SKB_OpenStudio_Pipeline/main/MC-inside-warehouse.webp)
 
 SKB Open Studio Pipeline
 🎬 SKBproductions, LLC is building a new era of AI-Powered Black Cinema — reimagining history, culture, and storytelling through modern AI tools.
