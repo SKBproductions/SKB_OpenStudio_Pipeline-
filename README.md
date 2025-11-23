@@ -1,8 +1,6 @@
-MC-inside-warehouse.webp
-https://raw.githubusercontent.com
+
 
 SKB Open Studio Pipeline
-
 🎬 SKBproductions, LLC is building a new era of AI-Powered Black Cinema — reimagining history, culture, and storytelling through modern AI tools.
 
 This repo contains the full creative pipeline for three major series:
