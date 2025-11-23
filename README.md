@@ -1,5 +1,4 @@
-
-
+/mnt/data/A_digital_banner_webpage_header_for_SKBproductions.png
 
 SKB Open Studio Pipeline
 
