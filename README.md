@@ -1,7 +1,5 @@
-[](https://github.com/Filmmaker-40/SKB_OpenStudio_Pipeline/blob/main/MC-inside-warehouse.webp) 
-
-
-
+MC-inside-warehouse.webp
+https://raw.githubusercontent.com
 
 SKB Open Studio Pipeline
 
