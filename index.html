@@ -3,21 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="SKBproductions, LLC — independent filmmaking and AI-powered Black cinema." />
   <title>SKBproductions, LLC | AI-Powered Black Cinema</title>
   <style>
     * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: #0b0b0f;
-      color: #f5f5f5;
-      line-height: 1.6;
-    }
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: #0b0b0f; color: #f5f5f5; line-height: 1.6; }
     a { color: inherit; text-decoration: none; }
-    .container {
-      width: min(1100px, 92%);
-      margin: 0 auto;
-    }
+    .container { width: min(1100px, 92%); margin: 0 auto; }
     .hero {
       background:
         radial-gradient(circle at top left, rgba(212, 175, 55, 0.22), transparent 30%),
@@ -26,132 +18,29 @@
       border-bottom: 1px solid rgba(255,255,255,0.1);
       padding: 80px 0 70px;
     }
-    .eyebrow {
-      display: inline-block;
-      padding: 8px 14px;
-      border: 1px solid rgba(212,175,55,0.35);
-      border-radius: 999px;
-      color: #f1d27a;
-      background: rgba(212,175,55,0.08);
-      letter-spacing: 0.16em;
-      text-transform: uppercase;
-      font-size: 12px;
-      margin-bottom: 20px;
-    }
+    .eyebrow { display: inline-block; padding: 8px 14px; border: 1px solid rgba(212,175,55,0.35); border-radius: 999px; color: #f1d27a; background: rgba(212,175,55,0.08); letter-spacing: 0.16em; text-transform: uppercase; font-size: 12px; margin-bottom: 20px; }
     h1, h2, h3 { margin: 0 0 14px; line-height: 1.15; }
     h1 { font-size: clamp(2.5rem, 6vw, 4.8rem); }
     h2 { font-size: clamp(1.8rem, 4vw, 3rem); }
     h3 { font-size: 1.4rem; }
     p { margin: 0 0 18px; color: #d1d1d6; }
-    .hero-grid {
-      display: grid;
-      grid-template-columns: 1.3fr 0.9fr;
-      gap: 30px;
-      align-items: center;
-    }
+    .hero-grid { display: grid; grid-template-columns: 1.3fr 0.9fr; gap: 30px; align-items: center; }
     .hero-copy p { max-width: 700px; font-size: 1.08rem; }
-    .buttons {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 14px;
-      margin-top: 28px;
-    }
-    .btn {
-      display: inline-block;
-      padding: 14px 22px;
-      border-radius: 16px;
-      font-weight: bold;
-      transition: 0.2s ease;
-    }
-    .btn-primary {
-      background: #ffffff;
-      color: #111111;
-    }
-    .btn-secondary {
-      border: 1px solid rgba(255,255,255,0.2);
-      background: rgba(255,255,255,0.05);
-      color: #ffffff;
-    }
+    .buttons { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 28px; }
+    .btn { display: inline-block; padding: 14px 22px; border-radius: 16px; font-weight: bold; transition: 0.2s ease; }
+    .btn-primary { background: #ffffff; color: #111111; }
+    .btn-secondary { border: 1px solid rgba(255,255,255,0.2); background: rgba(255,255,255,0.05); color: #ffffff; }
     .btn:hover { transform: translateY(-1px); }
-    .stats {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 16px;
-    }
-    .card, .stat {
-      background: rgba(255,255,255,0.04);
-      border: 1px solid rgba(255,255,255,0.08);
-      border-radius: 26px;
-      padding: 24px;
-    }
-    .stat strong {
-      display: block;
-      font-size: 1.8rem;
-      color: #ffffff;
-      margin-bottom: 8px;
-    }
-    .stat span {
-      color: #a8a8b0;
-      font-size: 0.9rem;
-      text-transform: uppercase;
-      letter-spacing: 0.12em;
-    }
+    .stats { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .card, .stat { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: 26px; padding: 24px; }
+    .stat strong { display: block; font-size: 1.8rem; color: #ffffff; margin-bottom: 8px; }
+    .stat span { color: #a8a8b0; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.12em; }
     section { padding: 64px 0; }
-    .section-dark {
-      background: rgba(255,255,255,0.02);
-      border-top: 1px solid rgba(255,255,255,0.07);
-      border-bottom: 1px solid rgba(255,255,255,0.07);
-    }
-    .intro {
-      max-width: 760px;
-      margin-bottom: 28px;
-    }
-    .grid-3, .grid-2 {
-      display: grid;
-      gap: 20px;
-    }
-    .grid-3 { grid-template-columns: repeat(3, 1fr); }
-    .grid-2 { grid-template-columns: repeat(2, 1fr); }
-    .project-tag {
-      display: inline-block;
-      margin-top: 12px;
-      padding: 7px 12px;
-      border-radius: 999px;
-      background: rgba(255,255,255,0.06);
-      border: 1px solid rgba(255,255,255,0.08);
-      color: #d7d7db;
-      font-size: 0.8rem;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-    }
-    .list {
-      padding-left: 18px;
-      color: #d1d1d6;
-    }
-    .list li { margin-bottom: 10px; }
-    .cta-box {
-      text-align: center;
-      background: linear-gradient(135deg, rgba(212,175,55,0.12), rgba(138,20,20,0.12));
-      border: 1px solid rgba(255,255,255,0.08);
-      border-radius: 28px;
-      padding: 40px 24px;
-    }
-    footer {
-      border-top: 1px solid rgba(255,255,255,0.08);
-      padding: 28px 0 40px;
-      color: #9c9ca3;
-      text-align: center;
-      font-size: 0.95rem;
-    }
-    @media (max-width: 900px) {
-      .hero-grid, .grid-3, .grid-2 { grid-template-columns: 1fr; }
-      .stats { grid-template-columns: 1fr 1fr; }
-    }
-    @media (max-width: 560px) {
-      .stats { grid-template-columns: 1fr; }
-      .hero { padding-top: 60px; }
-      .btn { width: 100%; text-align: center; }
-    }
+    .section-dark { background: rgba(255,255,255,0.02); border-top: 1px solid rgba(255,255,255,0.07); border-bottom: 1px solid rgba(255,255,255,0.07); }
+    .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+    footer { border-top: 1px solid rgba(255,255,255,0.08); padding: 28px 0 40px; color: #9c9ca3; text-align: center; font-size: 0.95rem; }
+    @media (max-width: 900px) { .hero-grid, .grid-3 { grid-template-columns: 1fr; } }
+    @media (max-width: 560px) { .stats { grid-template-columns: 1fr; } .hero { padding-top: 60px; } .btn { width: 100%; text-align: center; } }
   </style>
 </head>
 <body>
@@ -161,20 +50,17 @@
         <div class="eyebrow">SKBproductions, LLC</div>
         <h1>AI-Powered Black Cinema</h1>
         <p><strong>Bold visual storytelling from the past and future.</strong></p>
-        <p>
-          SKBproductions is a studio brand built around independent film legacy, AI-driven production,
-          and original cinematic worlds.
-        </p>
+        <p>Independent film experience, original cinematic worlds, and a developing AI-assisted studio pipeline.</p>
         <div class="buttons">
-          <a class="btn btn-primary" href="https://www.youtube.com/@YOURCHANNEL" target="_blank">Watch on YouTube</a>
-          <a class="btn btn-secondary" href="https://www.buymeacoffee.com/YOURNAME" target="_blank">Support the Studio</a>
+          <a class="btn btn-primary" href="https://www.youtube.com/@skbproductionsllc3557" target="_blank" rel="noopener noreferrer">Watch on YouTube</a>
+          <a class="btn btn-secondary" href="https://buymeacoffee.com/skbproductionsllc" target="_blank" rel="noopener noreferrer">Support the Studio</a>
         </div>
       </div>
       <div class="stats">
-        <div class="stat"><strong>3 Core Worlds</strong><span>Night Time People · The 25th Dynasty · Borsalino-Style</span></div>
-        <div class="stat"><strong>9 Years</strong><span>YouTube presence and filmmaking</span></div>
-        <div class="stat"><strong>AI + Film</strong><span>Visual storytelling and production</span></div>
-        <div class="stat"><strong>Studio Vision</strong><span>Black cinema reimagined</span></div>
+        <div class="stat"><strong>4 Story Worlds</strong><span>The Dealbreaker · Night Time People · The 25th Dynasty · Borsalino-Style</span></div>
+        <div class="stat"><strong>Independent Legacy</strong><span>Filmmaking experience and original production</span></div>
+        <div class="stat"><strong>AI + Film</strong><span>Technology serving story, character, and emotion</span></div>
+        <div class="stat"><strong>Studio Pipeline</strong><span>Organized development from concept to release</span></div>
       </div>
     </div>
   </header>
@@ -183,52 +69,14 @@
     <div class="container">
       <h2>Featured Projects</h2>
       <div class="grid-3">
-        <div class="card">
-          <h3>Night Time People</h3>
-          <p>Urban drama and long-tail audience driver.</p>
-        </div>
-        <div class="card">
-          <h3>The 25th Dynasty</h3>
-          <p>Epic African historical storytelling.</p>
-        </div>
-        <div class="card">
-          <h3>Borsalino-Style</h3>
-          <p>Noir visual storytelling and style.</p>
-        </div>
+        <div class="card"><h3>The Dealbreaker</h3><p>Crime procedural expanding the Night Time People universe.</p></div>
+        <div class="card"><h3>Night Time People</h3><p>Urban drama rooted in Atlanta's nightclub underworld.</p></div>
+        <div class="card"><h3>The 25th Dynasty</h3><p>Epic African historical storytelling.</p></div>
+        <div class="card"><h3>Borsalino-Style</h3><p>1940s-inspired noir, power, loyalty, and betrayal.</p></div>
       </div>
     </div>
   </section>
 
-  <footer>
-    <div class="container">
-      SKBproductions, LLC · AI-Powered Black Cinema
-    </div>
-  </footer>
+  <footer><div class="container">© SKBproductions, LLC · AI-Powered Black Cinema</div></footer>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-  
- 
